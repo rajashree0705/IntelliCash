@@ -8,7 +8,7 @@ import 'package:intellicash/i18n/generated/translations.g.dart';
 
 import '../../core/database/backup/backup_database_service.dart';
 
-enum _ExportFormats { csv, db }
+enum _ExportFormats { csv, db, csv2 }
 
 class ExportDataPage extends StatefulWidget {
   const ExportDataPage({super.key});
@@ -26,6 +26,7 @@ class _ExportDataPageState extends State<ExportDataPage> {
     required _ExportFormats exportFormat,
     required String title,
     required String descr,
+    IconData? icon,
   }) {
     final isSelected = selectedExportFormat == exportFormat;
 
@@ -47,9 +48,10 @@ class _ExportDataPageState extends State<ExportDataPage> {
 
           setState(() {});
         },
-        iconData: exportFormat == _ExportFormats.csv
-            ? Icons.format_quote
-            : Icons.security,
+        iconData: icon ??
+            (exportFormat == _ExportFormats.csv
+                ? Icons.format_quote
+                : Icons.security),
         afterWidget: Text(descr),
       ),
     );
@@ -119,6 +121,12 @@ class _ExportDataPageState extends State<ExportDataPage> {
               ),
               cardSelector(
                 exportFormat: _ExportFormats.csv,
+                icon: Icons.file_download,
+                title: 'Full backup in CSV',
+                descr: 'Export all data to a CSV file. Can be used to import data into other apps and used to feed context to AI',
+              ),
+              cardSelector(
+                exportFormat: _ExportFormats.csv2,
                 title: t.backup.export.transactions,
                 descr: t.backup.export.transactions_descr,
               ),

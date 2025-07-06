@@ -144,9 +144,9 @@ class TranslationsIntroEn {
 	String get skip => 'Skip';
 	String get next => 'Next';
 	String get select_your_currency => 'Select your currency';
-	String get welcome_subtitle => 'Your personal finance manager';
-	String get welcome_subtitle2 => '100% open, 100% free';
-	String get welcome_footer => 'By logging in you agree to the <a href=\'https://github.com/enrique-lozano/Intellicash/blob/main/docs/PRIVACY_POLICY.md\'>Privacy Policy</a> and the <a href=\'https://github.com/enrique-lozano/Intellicash/blob/main/docs/TERMS_OF_USE.md\'>Terms of Use</a> of the application';
+	String get welcome_subtitle => 'Your AI finance manager powered by Gemini';
+	String get welcome_subtitle2 => 'By Sudoerz';
+	String get welcome_footer => 'By logging in you agree to the <a href=\'https://github.com/Sudoerz/\'>Privacy Policy</a> and the <a href=\'https://github.com/Sudoerz/\'>Terms of Use</a> of the application';
 	String get offline_descr_title => 'OFFLINE ACCOUNT:';
 	String get offline_descr => 'Your data will only be stored on your device, and will be safe as long as you don\'t uninstall the app or change phone. To prevent data loss, it is recommended to make a backup regularly from the app settings.';
 	String get offline_start => 'Start session offline';
@@ -171,7 +171,7 @@ class TranslationsHomeEn {
 	String get filter_transactions => 'Filter transactions';
 	String get hello_day => 'Good morning,';
 	String get hello_night => 'Good night,';
-	String get total_balance => 'Total balance';
+	String get total_balance => 'Net worth';
 	String get my_accounts => 'My accounts';
 	String get active_accounts => 'Active accounts';
 	String get no_accounts => 'No accounts created yet';

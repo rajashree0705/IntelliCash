@@ -13,14 +13,13 @@ class IntroPage extends StatelessWidget {
 
   Widget buildFirstSection(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
+      crossAxisAlignment: CrossAxisAlignment.center,
       children: [
-        Row(
+        SizedBox(height: MediaQuery.of(context).size.height * 0.1),
+        const Row(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Transform.translate(
-              offset: const Offset(-4, 0),
-              child: const DisplayAppIcon(height: 80),
-            ),
+            DisplayAppIcon(height: 80),
           ],
         ),
         const SizedBox(height: 12),
