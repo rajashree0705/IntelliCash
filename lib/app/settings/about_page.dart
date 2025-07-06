@@ -67,7 +67,8 @@ class AboutPage extends StatelessWidget {
                               style: Theme.of(context).textTheme.headlineMedium,
                             ),
                             Text(
-                              'v${snapshot.data!.version} (${snapshot.data!.buildNumber})',
+                              'v1.0.0',
+                              // 'v${snapshot.data!.version} (${snapshot.data!.buildNumber})',
                               style: Theme.of(context).textTheme.labelSmall,
                             ),
                             const SizedBox(height: 2),
@@ -91,32 +92,32 @@ class AboutPage extends StatelessWidget {
               subtitle: t.more.about_us.project.contributors_descr,
               onTap: () {
                 openExternalURL(context,
-                    'https://github.com/enrique-lozano/Monekin/graphs/contributors');
+                    '');
               },
             ),
             buildLinkItem(
               t.more.help_us.report,
               onTap: () {
                 openExternalURL(context,
-                    'https://github.com/enrique-lozano/Monekin/issues/new/choose');
+                    '');
               },
             ),
             buildLinkItem(t.more.about_us.project.contact, onTap: () {
-              openExternalURL(context, 'mailto:lozin.technologies@gmail.com');
+              openExternalURL(context, 'mailto:zodsenpaix@gmail.com');
             }),
             createListSeparator(context, t.more.about_us.legal.display),
             buildLinkItem(
               t.more.about_us.legal.terms,
               onTap: () {
                 openExternalURL(context,
-                    'https://github.com/enrique-lozano/Monekin/blob/main/docs/TERMS_OF_USE.md');
+                    '');
               },
             ),
             buildLinkItem(
               t.more.about_us.legal.privacy,
               onTap: () {
                 openExternalURL(context,
-                    'https://github.com/enrique-lozano/Monekin/blob/main/docs/PRIVACY_POLICY.md');
+                    '');
               },
             ),
             buildLinkItem(
