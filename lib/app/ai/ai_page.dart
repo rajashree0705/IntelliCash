@@ -259,9 +259,13 @@ class _ChatPageState extends State<ChatPage> {
           user: _user,
           theme: DefaultChatTheme(
             primaryColor: Theme.of(context).colorScheme.primary,
+            secondaryColor: Theme.of(context).colorScheme.tertiary,
             backgroundColor: Theme.of(context).colorScheme.surface,
             inputBackgroundColor: Theme.of(context).colorScheme.surface,
             inputTextColor: Theme.of(context).colorScheme.onSurface,
+            inputContainerDecoration: BoxDecoration(
+              color: Theme.of(context).colorScheme.surface,
+            ),
             sentMessageBodyTextStyle: TextStyle(
               color: Theme.of(context).colorScheme.onPrimary,
             ),
