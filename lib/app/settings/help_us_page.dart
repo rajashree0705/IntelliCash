@@ -54,7 +54,7 @@ class HelpUsPage extends StatelessWidget {
                       mainAxis: Axis.horizontal,
                       onTap: () {
                         openExternalURL(context,
-                            'https://play.google.com/store/apps/details?id=com.intellicash.app');
+                            'https://github.com/Sudoerz/');
                       }),
                   const SizedBox(height: 8),
                   SettingCardItem(
@@ -64,7 +64,7 @@ class HelpUsPage extends StatelessWidget {
                       mainAxis: Axis.horizontal,
                       onTap: () {
                         Share.share(
-                            '${t.more.help_us.share_text}: https://play.google.com/store/apps/details?id=com.intellicash.app');
+                            '${t.more.help_us.share_text}: https://github.com/Sudoerz/');
                       }),
                   const SizedBox(height: 8),
                   SettingCardItem(
@@ -73,7 +73,7 @@ class HelpUsPage extends StatelessWidget {
                       mainAxis: Axis.horizontal,
                       onTap: () {
                         openExternalURL(context,
-                            'https://github.com/enrique-lozano/Monekin/issues/new/choose');
+                            'https://github.com/Sudoerz/');
                       }),
                 ],
               ),
