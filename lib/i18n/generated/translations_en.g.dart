@@ -147,9 +147,11 @@ class TranslationsIntroEn {
 	String get welcome_subtitle => 'Your AI finance manager powered by Gemini';
 	String get welcome_subtitle2 => 'By Sudoerz';
 	String get welcome_footer => 'By logging in you agree to the <a href=\'https://github.com/Sudoerz/\'>Privacy Policy</a> and the <a href=\'https://github.com/Sudoerz/\'>Terms of Use</a> of the application';
-	String get offline_descr_title => 'OFFLINE ACCOUNT:';
-	String get offline_descr => 'Your data will only be stored on your device, and will be safe as long as you don\'t uninstall the app or change phone. To prevent data loss, it is recommended to make a backup regularly from the app settings.';
-	String get offline_start => 'Start session offline';
+	String get offline_descr_title => 'Your Data & AI Privacy';
+	String get offline_descr => 'Your financial data stays secure on your device. When you use our AI features, only the information needed for insights '
+  'may be securely processed through trusted AI services — we never store your data on external servers permanently. '
+  'Your data remains under your control. For extra safety, make regular backups in the app settings.';
+	String get offline_start => 'Unleash Insights';
 	String get sl1_title => 'Select your currency';
 	String get sl1_descr => 'Your default currency will be used in reports and general charts. You will be able to change the currency and the app language later at any time in the application settings';
 	String get sl2_title => 'Safe, private and reliable';

@@ -71,6 +71,8 @@ dependencies:
   mime: ^1.0.5
   open_filex: ^4.4.0
   flutter_chat_types: ^3.6.2
+  firebase_core: ^3.15.1
+  firebase_ai: ^2.2.1
 
 dev_dependencies:
   flutter_test:
@@ -90,7 +92,7 @@ dev_dependencies:
 
 flutter_launcher_icons:
   android: true
-  ios: true
+  ios: false
   image_path: "assets/resources/appIcon.png"
   adaptive_icon_background: "assets/resources/appIcon.png"  # Path to your background image
   adaptive_icon_foreground: "assets/resources/appIcon.png"
