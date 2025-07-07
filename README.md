@@ -52,12 +52,6 @@
 | ![1](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva1.PNG) | ![2](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva2.PNG) | ![3](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva3.PNG) | ![4](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva4.PNG) |
 | ![5](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva5.PNG) | ![6](https://github.com/enrique-lozano/Monekin/blob/main/app-marketplaces/screenshots/en/Mockups/Diapositiva6.PNG) |
 
-### 🕰 History of Intellicash
-
-Intellicash was born from the frustration of not finding any app that could meet all my personal finance needs and functionality requirements. None of the existing solutions provided the balance between simplicity, features, and usability that I was looking for.
-
-So, I decided to create one myself. After months of development and hard work, Intellicash was released on Google Play in October 2021. Shortly after, it became 100% open-source, not only to involve external developers in improving the app but also to increase user confidence and transparency. Since then, the app has continued to grow and update continuously, thanks in part to this community of users and contributors.
-
 ### 🌟 Why Intellicash? 
 
 - **Unlimited Transactions & Multi-Account Management**  
