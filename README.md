@@ -5,7 +5,7 @@
     <img src="assets/resources/appIcon.png"  alt="App Icon" width="100" height="100">
   </a>
 
-  <h1 align="center">Intellicash - Official repository</h1>
+  <h1 align="center">Intellicash - AI Personal Finance guide</h1>
 
   <p align="center">
     Intellicash is a next-gen personal finance platform powered by Google Cloud services including Firebase, Vertex AI, and Fi Money's MCP server, delivering enterprise-grade financial intelligence with consumer simplicity.
