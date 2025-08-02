@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "562989165357",
+    "project_id": "intellicash-6db34",
+    "storage_bucket": "intellicash-6db34.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:562989165357:android:3f9456bc53e23a757e81a4",
+        "android_client_info": {
+          "package_name": "com.intellicash.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCRZPKNr0sJTF9DyWpZPO87IfaWeitzd0s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

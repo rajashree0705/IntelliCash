@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:intellicash/app/onboarding/onboarding.dart';
 import 'package:intellicash/app/settings/widgets/display_app_icon.dart';
@@ -19,7 +20,7 @@ class IntroPage extends StatelessWidget {
         const Row(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            DisplayAppIcon(height: 80),
+            DisplayAppIcon(height: 100),
           ],
         ),
         const SizedBox(height: 12),
@@ -69,9 +70,9 @@ class IntroPage extends StatelessWidget {
         FilledButton.icon(
           onPressed: () => RouteUtils.pushRoute(context, const OnboardingPage(),
               withReplacement: true),
-          icon: const Icon(Icons.person_2_rounded, size: 24),
+          icon: const Icon(CupertinoIcons.sparkles, size: 24),
           label: Container(
-            alignment: Alignment.centerLeft,
+            alignment: Alignment.center,
             padding: const EdgeInsets.only(left: 4),
             child: Text(t.intro.offline_start),
           ),

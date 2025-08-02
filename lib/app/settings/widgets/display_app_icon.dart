@@ -12,16 +12,16 @@ class DisplayAppIcon extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: const EdgeInsets.all(8),
+      padding: const EdgeInsets.all(0),
       height: height,
       decoration: BoxDecoration(
-        border: Border.all(width: 1, color: Colors.white),
-        borderRadius: BorderRadius.circular(12),
-        color: ColorHex.get('0F3375'),
+        border: Border.all(width: 1, color: const Color.fromARGB(0, 0, 0, 0)),
+        borderRadius: BorderRadius.circular(2),
+        color: const Color.fromARGB(0, 0, 0, 0)
       ),
       child: Container(
         decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(12),
+          borderRadius: BorderRadius.circular(10),
         ),
         clipBehavior: Clip.hardEdge,
         child: AspectRatio(

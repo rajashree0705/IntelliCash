@@ -1,7 +1,7 @@
 import 'package:dynamic_color/dynamic_color.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
-import 'package:intl/intl.dart';
 import 'package:intellicash/app/layout/navigation_sidebar.dart';
 import 'package:intellicash/app/layout/tabs.dart';
 import 'package:intellicash/app/onboarding/intro.page.dart';
@@ -13,11 +13,13 @@ import 'package:intellicash/core/presentation/theme.dart';
 import 'package:intellicash/core/routes/root_navigator_observer.dart';
 import 'package:intellicash/core/utils/logger.dart';
 import 'package:intellicash/core/utils/scroll_behavior_override.dart';
+import 'package:intellicash/firebase_options.dart';
 import 'package:intellicash/i18n/generated/translations.g.dart';
+import 'package:intl/intl.dart';
 
 void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
 
+  WidgetsFlutterBinding.ensureInitialized();
   await UserSettingService.instance.initializeGlobalStateMap();
   await AppDataService.instance.initializeGlobalStateMap();
 
@@ -38,6 +40,11 @@ void main() async {
       return 'other';
     },
   );
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.android,
+  );
+  
+
 
   runApp(InitializeApp(key: appStateKey));
 }
