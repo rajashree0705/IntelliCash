@@ -43,9 +43,6 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.android,
   );
-  
-
-
   runApp(InitializeApp(key: appStateKey));
 }
 
