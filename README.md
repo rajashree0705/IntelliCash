@@ -3,10 +3,10 @@
 <div align="center">
     <img src="assets/resources/appIcon.png"  alt="App Icon" width="100" height="100">
 
-  <h1 align="center">Intellicash - AI Personal Finance guide</h1>
+  <h1 align="center">Intellicash - AI Personal Finance Guide</h1>
 
   <p align="center">
-    Intellicash is a next-gen personal finance platform powered by Google Cloud services including Firebase, Vertex AI, and Fi Money's MCP server, delivering enterprise-grade financial intelligence with consumer simplicity.
+    Intellicash is a next-gen personal finance platform powered by Google Cloud services like Firebase and Vertex AI, delivering enterprise-grade financial intelligence with consumer-level simplicity.
     <br />
     <a href="#about-the-project"><strong>Start exploring »</strong></a>
     <br />
@@ -55,173 +55,154 @@
 ### 🌟 Why Intellicash? 
 
 - **Hybrid AI Intelligence**  
-  Combines on-device processing with cloud AI through Fi Money's MCP server and Google Vertex AI.
+  Combines on-device ML processing with cloud-based AI models for smart financial analysis.
 - **Google Cloud Powered**  
-  Enterprise-grade infrastructure with Firebase, Cloud Functions, and BigQuery analytics.
+  Leverages Firebase, Cloud Functions, and BigQuery to deliver secure, scalable, real-time insights.
 - **Smart Transaction Categorization**  
-  Uses both local ML models and cloud AI for 98% accurate categorization.
-- **Natural Language Processing**  
-  Ask questions like "Show food spending last month" using Vertex AI's NLP.
-- **Financial Forecasting**  
-  Vertex AI time-series forecasting for budget predictions.
-- **Unlimited Transactions**  
-  Scales to millions of transactions via Firestore and Cloud SQL.
-- **Multi-Device Sync**  
-  Real-time data synchronization across devices with Firebase.
+  Achieves 98% accuracy using a blend of local ML models and Vertex AI.
+- **Natural Language Queries**  
+  Ask questions like "Show food spending last month" using built-in NLP support.
+- **Predictive Forecasting**  
+  Uses Vertex AI to provide future budget estimates based on spending patterns.
+- **Scalable Data Handling**  
+  Handles millions of transactions using Firestore and Cloud SQL.
+- **Cross-Device Sync**  
+  Seamless real-time data synchronization across all your devices.
 - **Advanced Security**  
-  Google Cloud IAP, Secret Manager, and encryption at rest.
-- **Open Source Core**  
-  Fully transparent local-first architecture.
+  End-to-end encryption, IAM, and Google Cloud Secret Manager integration.
+- **Open Source First**  
+  Built with transparency and privacy in mind—local-first where possible.
 
 ### 🚀 Core Google Cloud Integrations
 
 1. **Firebase Platform**
-   - Authentication with OAuth, biometrics, and 2FA
-   - Firestore with offline persistence
-   - Cloud Functions for transaction processing
-   - Crashlytics for performance monitoring
+   - Secure authentication (OAuth, biometrics, 2FA)
+   - Firestore with offline sync
+   - Cloud Functions for backend automation
+   - Crashlytics for bug and crash tracking
 
 2. **Vertex AI Services**
-   - Custom financial classification models
-   - AutoML Tables for cash flow forecasting
-   - NLP for transaction memo analysis
-   - Anomaly detection algorithms
+   - Custom-trained classification models
+   - AutoML Tables for time-series forecasting
+   - Natural language understanding for finance
+   - Anomaly detection for fraud and outliers
 
 3. **Google Cloud Infrastructure**
-   - Cloud Run microservices
-   - Pub/Sub event processing
-   - Secret Manager for credentials
-   - Cloud SQL for analytics
+   - Microservices with Cloud Run
+   - Pub/Sub for real-time event streaming
+   - Secret Manager for key management
+   - Cloud SQL and BigQuery for data analytics
 
 ### 🔄 Hybrid AI Architecture
 
 **Data Flow:**
-[Device] → [Firebase] → [Cloud Functions] → [Vertex AI] → [BigQuery] ↑____________↓ ↑ [Local SQLite] [Fi Money MCP]
 
+`[Device] → [Firebase] → [Cloud Functions] → [Vertex AI] → [BigQuery] ↑____________↓ ↑ [Local SQLite]`
 
-**Key Features:**
-1. **On-Device Processing**
-   - TensorFlow Lite models
-   - Local SQLite database
-   - Offline transaction recording
+**Architecture Highlights:**
 
-2. **Cloud Enhancements**
-   - Vertex AI model serving
-   - Firestore synchronization
-   - MCP server integrations
+- **Local Intelligence**
+  - Offline transaction tracking using SQLite
+  - On-device models with TensorFlow Lite
 
-3. **Security Model**
-   - End-to-end encryption
-   - IAM role-based access
-   - Audit logging
+- **Cloud Augmentation**
+  - Cloud model inference via Vertex AI
+  - Real-time sync through Firestore
+
+- **Security-First Design**
+  - IAM, encryption at rest, and audit logging
 
 ### 🔧 Enhanced Technical Stack
 
 **Frontend:**
-- Flutter with Firebase plugins
-- Google Maps Platform for location tagging
-- Charts powered by Google Charts
+- Flutter with Firebase integration
+- Google Maps for location tagging
+- Interactive charts via Google Charts
 
 **Backend Services:**
 - Cloud Run containers
-- Cloud Scheduler for batch jobs
-- Memorystore for caching
+- Cloud Scheduler for automation
+- Memorystore (Redis) for caching
 
 **Data Pipeline:**
 - Dataflow for ETL
-- BigQuery analytics
-- Looker Studio dashboards
+- BigQuery for advanced analytics
+- Looker Studio for dashboards
 
 **ML Operations:**
-- Vertex AI Pipelines
-- Model monitoring
-- Continuous retraining
+- Vertex AI Pipelines for MLOps
+- Model monitoring and auto-retraining
 
+---
 
 ## Run the code locally 🚀🧑‍💻
 
-IntelliCash is fully open-source, allowing you to run it locally on your device. Whether you’re curious about how the app works, planning to contribute, or simply exploring, this guide provides all the steps to get started.
-
+Intellicash is fully open-source and easy to set up locally. Whether you're contributing, learning, or exploring—you're welcome here!
 
 ### Prerequisites 🛠️
 
-Before running IntelliCash, ensure you have the following tools installed:
-
-1. **Flutter SDK**: Follow the [official installation guide](https://docs.flutter.dev/get-started/install) to set up Flutter on your system.
-2. **Code Editor (Optional)**: Tools like [Visual Studio Code](https://code.visualstudio.com/) or Android Studio make managing Flutter projects easier.
+1. **Flutter SDK** – Install from the [official guide](https://docs.flutter.dev/get-started/install)
+2. **Code Editor (Optional)** – [VS Code](https://code.visualstudio.com/) or Android Studio recommended
 
 ### Getting the Project 📂
 
-You can choose one of two ways to obtain the project:
+**Option 1: Download as ZIP**
+- Go to the [IntelliCash GitHub Repo](https://github.com/Sudoerz/IntelliCash)
+- Click **Code** > **Download ZIP**
+- Extract to your desired folder
 
-### Option 1: Download as ZIP File (No Git Required)
+**Option 2: Clone the Repo**
+```bash
+git clone https://github.com/Sudoerz/IntelliCash
+```
 
-1. Go to the [IntelliCash GitHub Repository](https://github.com/Sudoerz/IntelliCash).
-2. Click the green **Code** button, then select **Download ZIP**.
-3. Extract the ZIP file to a folder of your choice.
+### Installation 📦
 
-### Option 2: Clone the Repository (Recommended for Contributors)
-
-1. Open a terminal in the folder where you want the project.
-2. Run the following command:
-
-   ```bash
-   git clone https://github.com/Sudoerz/IntelliCash
-   ```
-
-### Installation📦
-
-Once you’ve downloaded or cloned the project, navigate to the project directory and install the required dependencies using Flutter:
+Navigate to the project folder and install dependencies:
 
 ```bash
 flutter pub get
 ```
 
-### Running the App ▶️
+### Run the App ▶️
 
-With the setup complete, you can run the app on a connected device or an emulator:
+Run the app on an emulator or connected device:
 
 ```bash
 flutter run
 ```
 
-If everything is set up correctly, the app will launch, and you’ll be able to test its features locally.
-
+---
 
 ## Contributing 🙋🏻
 
 ### How to get started
 
-### 1. Fork the repo
+1. **Fork the repo**
 
-To start, fork the project. If you are new to this, don't worry! We leave you a guide below, and if you still have problems, you can contact us whenever you wish.
+New to forking? Use [this GitHub guide](https://docs.github.com/en/get-started/quickstart/fork-a-repo) to fork and set up your copy.
 
-**[How To Fork Guide - by GitHub.com](https://docs.github.com/en/get-started/quickstart/fork-a-repo)**
+2. **Set up your workspace**
 
-After that you should [run your app](https://github.com/Sudoerz/IntelliCash) to check that everything is correct.
+Clone your fork locally, then open it using your preferred code editor.
 
-### 2. Configure your developer workspace
+We recommend **Visual Studio Code**, along with the Flutter extension pack. Type `@recommended` in the extensions tab to install all project-recommended tools.
 
-Once you have the project up and running, you should prepare to develop in Monekin. To make changes to the project and develop on it, the use of **[Visual Studio Code](https://code.visualstudio.com/)** as a text editor is strongly recommended. You can use any other code editor, you can even program using Word, but Visual Studio Code is the most widespread editor for Front-End development, and using it guarantees you follow the same work methods as the administrators of this project.
-
-### Visual Studio and Recommended extensions
-
-To increase your productivity on this project, it is strongly recommended to install the recommended extensions. To do this, when you have the project open with Visual Studio Code, you can type `@recommended` in the extensions section, and install all the ones that appear in the list.
-
-And that's it! You're are ready to start.
-
+---
 
 ### Why to contribute 🙌
 
-Contributing to IntelliCash is more than just writing code — it's an opportunity to:
+Contributing to Intellicash gives you a chance to:
 
-- 💡 Learn and grow your skills with real-world Flutter development
-- 🤝 Collaborate with a welcoming open-source community
-- 🧠 Understand how a full-stack Flutter app is structured and maintained
-- 📢 Build your GitHub profile with meaningful contributions
-- 🔥 Help improve a finance app that helps users manage money better
+- 🚀 Learn practical Flutter + Firebase development
+- 🌍 Work with an open-source community
+- 🔧 Understand full-stack cloud-native architectures
+- 💼 Build your GitHub portfolio with meaningful contributions
+- 💡 Help people take control of their finances with AI
 
-Whether you’re a beginner exploring open source or an experienced developer, there’s always a way to add value — from fixing bugs and optimizing performance to improving documentation or adding new features.
+All skill levels are welcome — whether you're fixing typos, improving UI, writing docs, or building features.
 
+---
 
-**Note:** Intellicash is a fork of the original [Monekin](https://github.com/enrique-lozano/Monekin) project, enhanced with Google Cloud services and Fi Money MCP integration while maintaining its open-source core. The app offers a unique combination of local data privacy and cloud-powered intelligence.
+**Note:**  
+Intellicash is an open-source fork of the original [Monekin](https://github.com/enrique-lozano/Monekin) app, reimagined with deep Google Cloud and AI integration. While inspired by Monekin’s local-first principles, IntelliCash brings in a modern hybrid AI architecture for smarter, more scalable financial intelligence.
