@@ -22,16 +22,16 @@
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
-        <li><a href="#why-intellicash">Why Intellicash?</a></li>
-        <li><a href="#core-google-cloud-integrations">Core Google Cloud Integrations</a></li>
-        <li><a href="#hybrid-ai-architecture">Hybrid AI Architecture</a></li>
-        <li><a href="#enhanced-technical-stack">Enhanced Technical Stack</a></li>
+        <li><a href="#-why-intellicash">Why Intellicash?</a></li>
+        <li><a href="#-core-google-cloud-integrations">Core Google Cloud Integrations</a></li>
+        <li><a href="#-hybrid-ai-architecture">Hybrid AI Architecture</a></li>
+        <li><a href="#-enhanced-technical-stack">Enhanced Technical Stack</a></li>
       </ul>
     </li>
     <li>
       <a href="#run-the-code-locally-">Run the code locally</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
+        <li><a href="#prerequisites-%EF%B8%8F">Prerequisites</a></li>
         <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
@@ -39,7 +39,7 @@
       <a href="#contributing-">Contributing</a>
       <ul>
         <li><a href="#how-to-get-started">How to get started</a></li>
-        <li><a href="#why-to-contribute">Why to contribute?</a></li>
+        <li><a href="#why-to-contribute-">Why to contribute?</a></li>
       </ul>
     </li>
   </ol>
