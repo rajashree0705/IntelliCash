@@ -203,5 +203,11 @@ All skill levels are welcome — whether you're fixing typos, improving UI, writ
 
 ---
 
-**Note:**  
-Intellicash is an open-source fork of the original [Monekin](https://github.com/enrique-lozano/Monekin) app, reimagined with deep Google Cloud and AI integration. While inspired by Monekin’s local-first principles, IntelliCash brings in a modern hybrid AI architecture for smarter, more scalable financial intelligence.
+**Credits:**  
+- [Google Cloud](https://cloud.google.com/) – for cloud infrastructure and AI services.
+- [Firebase](https://firebase.google.com/) – for authentication, database, and analytics.
+- [Monekin](https://github.com/enrique-lozano/Monekin) – for financial tracking design and structure.
+- [Vertex AI](https://cloud.google.com/vertex-ai) – for integrating generative AI capabilities.
+- [Chroma DB](https://www.trychroma.com/) – for vector search and semantic memory.
+- [MCP](https://mcp.sudomate.ai/) – for natural language SQL and fast API workflows.
+
