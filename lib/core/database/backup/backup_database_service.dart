@@ -2,11 +2,11 @@ import 'dart:io';
 
 import 'package:csv/csv.dart';
 import 'package:file_picker/file_picker.dart';
-import 'package:intl/intl.dart';
 import 'package:intellicash/core/database/app_db.dart';
 import 'package:intellicash/core/database/services/app-data/app_data_service.dart';
 import 'package:intellicash/core/models/transaction/transaction.dart';
 import 'package:intellicash/core/utils/logger.dart';
+import 'package:intl/intl.dart';
 import 'package:path/path.dart' as path;
 
 class BackupDatabaseService {
@@ -17,7 +17,7 @@ class BackupDatabaseService {
 
     exportPath = path.join(
       exportPath,
-      "monekin-${DateFormat('yyyyMMdd-Hms').format(DateTime.now())}.db",
+      "Intellicash-${DateFormat('yyyyMMdd-Hms').format(DateTime.now())}.db",
     );
 
     File downloadFile = File(exportPath);
